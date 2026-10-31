@@ -1,0 +1,46 @@
+{
+  "name": "magpie-github-prefix",
+  "version": "1.0.0",
+  "description": "给 magpie 里发往 GitHub 的地址加一个镜像前缀：前缀 + 原地址。带镜像测速与自定义清单。",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "page",
+    "README.md"
+  ],
+  "keywords": [
+    "magpie",
+    "magpie-plugin",
+    "magpie-page",
+    "github",
+    "mirror",
+    "china"
+  ],
+  "license": "MIT",
+  "engines": {
+    "magpie": ">=0.1.1340"
+  },
+  "magpie": {
+    "page": {
+      "title": "GitHub 镜像",
+      "titles": {
+        "zh": "GitHub 镜像",
+        "zh-TW": "GitHub 鏡像",
+        "ja": "GitHub ミラー",
+        "de": "GitHub-Spiegel"
+      },
+      "file": "page/index.html",
+      "icon": "page/icon.svg"
+    }
+  },
+  "author": "aduoer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aduoer/magpie-github-prefix.git"
+  },
+  "homepage": "https://github.com/aduoer/magpie-github-prefix#readme",
+  "bugs": {
+    "url": "https://github.com/aduoer/magpie-github-prefix/issues"
+  }
+}
